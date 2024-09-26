@@ -1,3 +1,6 @@
 - vercel mein apne project ko host krna sbse aasan hai . 
 - bs apne vercel account ko github k sath connect kro 
 - bs iska drawback hai aapke project ko dekhne k liye dusre user ko vercel pr sign up krna hoga
+
+main benefit- jb aap vercel pr ek baar project host kr dete ho to jb bhi aap apne apne project mein update kroge github pr to apne aap vercel aapke live project ko bhi host kr dega.
+like meine college website ko update kiya github pr to sath hi mein vercel pr live hosting pr bhi update ho gya.
