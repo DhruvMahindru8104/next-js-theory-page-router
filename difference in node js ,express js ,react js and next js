@@ -1,24 +1,27 @@
 1- react js is a frontend library , if we want to integrate backend we need node js . and here comes express js which is made on node js . it provide more backend features .
-2- next js is full stack framework made with react and node js. its backend is based on node js . 
+2- next js is full stack framework made with react and node js.its frontend is based on react js and its backend is based on node js . 
 it doesnt need express js as it has more different good backend features
 
--express js (backend) is used to integrate backend in reactjs websites
--next js (backend) is used to integrate backend in next js websites
+-nodejs (ek aisa platform jise hum kisi bhi machine mein download kre to us machine mein javascript run ho skti hai chahe vo hmara computer ho ,mobile ho , laptop ho ya koi server jismein humne website host kri )
+-express js (ek aisi library jo node js mein api bnane k kaam aati , vaise hum node js mein bhi api bna skte but express js fast api bna deti ) 
+-next js (backend) yeh bhi node js k upr bna hai ismein hum sb features use kr skte like authentication , api bnana , server side rendering etc.
 both are made on node js (ek aisa platform jo hmari javascript ko server pe run krta)
 
 
-Summary:
-React.js:
+see in simple 
+-before javascript was only run on browser , but then engineer decide to make a change , they made node js , means if we want to run javascript on any machine , node js should be installed on machine .
+so that's how node js makes javascript a server side language . we download node js on the server where we hosted our website so that our website can interact with server through javascript . 
+-and express js is a library made on node js . which make api routes and fetching data. 
+-similarly next js backend is made on node js which can perform same task as express js but with more efficient way 
 
-Frontend Library: React.js is a frontend library used to build user interfaces. To integrate backend functionality, we use Node.js.
-Express.js:
-Built on Node.js, Express.js is used to provide more backend features, making it easier to handle routing, middleware, and API requests in React.js applications.
-Next.js:
 
-Full-Stack Framework: Next.js is a full-stack framework that combines React and Node.js. Its backend capabilities are built on Node.js.
-No Need for Express.js: Next.js does not require Express.js because it includes built-in backend features such as server-side rendering, static site generation, and API routes.
-Key Roles:
+Simplified Summary:
+JavaScript on Browsers: Initially, JavaScript could only run in the browser. Engineers wanted to enable JavaScript to run on servers as well, so they created Node.js.
 
-Express.js (Backend): Used to integrate backend functionality in React.js websites.
-Next.js (Backend): Used to integrate backend functionality in Next.js websites.
-Node.js: Both frameworks are built on Node.js, which is a platform that allows JavaScript to run on the server.
+Node.js: This allows JavaScript to be installed on any machine, making it possible to run JavaScript server-side. By installing Node.js on the server where a website is hosted
+, developers can use JavaScript to interact with the server.
+
+Express.js: This is a library built on Node.js that simplifies the creation of API routes and data fetching, making it easier to handle backend operations in JavaScript applications.
+
+Next.js: Similar to Express.js, Next.js has its backend capabilities built on Node.js. It can perform tasks like creating API routes and data fetching but does so in a more efficient way, 
+offering additional features such as server-side rendering and static site generation.
